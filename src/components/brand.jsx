@@ -11,6 +11,7 @@ import brandSl6 from './images/brandSl6.jpg'
 import brandSl7 from './images/brandSl7.jpg'
 import brandSl8 from './images/brandSl8.jpg'
 import brandSl9 from './images/brandSl9.jpg'
+import brand12 from './images/brand12.jpg'
 import { useLayoutEffect } from 'react';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
@@ -47,20 +48,27 @@ const Brand = () => {
                 <img src={img1} alt="123" />
                 </div>
                 <div className={classes.CardText}>
-                    <strong> Создайте свой бренд детской одежды вместе с нами! </strong>
-                    <p>Если у вас есть своя линия детской одежды, или вы бы хотели создать свой бренд детской одежды мы готовы помочь вам в этом!</p>
+                    <strong> Создайте свой бренд одежды вместе с нами! </strong>
+                    <p>Если у вас есть своя линия одежды , или вы бы хотели составить свой бренд одежды мы готовы помочь вам в этом!</p>
                     <p>Мы можем сделать ваши модели на основе наших лекал и разработок! И внести любые ваши изменения.</p>
                     <p>Также мы работаем с лекалами и тканями заказчика.</p>
                 </div>
             </div>
             <h1>Наши работы</h1>
             <div className={classes.Cards}>
-                <div className={classes.Card2}>
-                <img src={brand1} alt="123" />
+                <div className={classes.Slider}>
+                    <Slider {...settings}>
+                        <div>
+                            <img src={brand1} />
+                        </div>
+                        <div>
+                            <img src={brand12}/>
+                        </div>
+                    </Slider>
                 </div>
                 <div className={classes.CardText}>
                     <strong> Штаны палаццо женские. </strong>
-                    <p>Представлены в 5-ти размерах С 42 по 50 (S-2XL).          
+                    <p>Представлены в 6-ти размерах С 42 по 52 (S-3XL).          
                         Штаны представлены в 2-х расцветках :    
                         чёрные (футер 2-х нитка компакт пенье состав 70%хб.,30%пэ.,).            
                         Молочные (футер 2-х нитка компакт пенье 95%хб 5% лайкра ).
