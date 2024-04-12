@@ -1,0 +1,199 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+.Main{
+  display:flex;
+  flex-direction: column;
+  background-color: #6B6B6B;
+}
+.Main h1{
+  color: white;
+}
+
+.App {
+    text-align: center;
+    font-size: 300%;
+    background-color: #6B6B6B;
+    padding-bottom: 4%;
+  }
+
+.App h3{
+  font-size: 100%;
+  color: white;
+}
+
+.App h1{
+  padding-top: 4%;
+  color: white;
+}
+
+.App button{
+  font-size: large;
+  padding: 1%;
+  width: 60%;
+  border: none;
+  background-color: white;
+}
+
+.Lists{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  background-color: gray;
+
+}
+
+.ListItem{
+  align-self:flex-start;
+  background-color: #6B6B6B;
+  font-size: x-large;
+  text-align: left;
+  width: 45%;
+  height: 30%;
+  margin: 1%;
+}
+.ListItem li,h2,h3{
+  color: white;
+  padding: 2%;
+}
+  
+.Cards{
+  background-color: gray;
+  display: flex;
+  flex-direction: row ;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Card{
+  align-self: flex-start;
+  width: 24%;
+  height: 30%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  background-color: #6B6B6B;
+}
+
+.Card p{
+  color:white;
+}
+
+.Card2{
+  width: 30%;
+  height: 20%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+.CardText{
+  background-color: #616161;
+  color:white;
+  font-size: x-large;
+  width: 40%;
+  height: 20%;
+  padding: 3%;
+}
+
+.Card2 img{
+  width: 90%;
+  height: 10%;
+}
+
+.Card img{
+  padding-top: 3%;
+  width: 90%;
+  height: 480px;
+}
+.Slider{
+  z-index: 2;
+  width: 30%;
+  height: 20%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+.Slider img{
+  width: 98%;
+  height: 10%;
+}
+.Map{
+  align-self:flex-start;
+  background-color: black;
+  width: 50%;
+  height: 595px;
+  margin: 1%;
+}
+.SomeBlock{
+  background-color: #616161;
+  color:white;
+  width: 80%;
+  align-self: center;
+  font-size: x-large;
+  text-align: left;
+  padding-left: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.SomeBlock2{
+  background-color: #6B6B6B;
+  color:white;
+  width: 80%;
+  align-self: center;
+  font-size: x-large;
+  padding-left: 5%;
+  margin: 2%
+}
+
+.SomeList{
+  background-color: #616161;
+  color:white;
+  margin: 2%;
+  width: 80%;
+  align-self: center;
+  font-size: x-large;
+  text-align: left;
+}
+
+.SomeList h1{
+  text-align: center;
+}
+
+.SomeList p{
+  padding-left: 5%;
+}
+.ListItem a{
+  color:whitesmoke;
+  padding-left: 5%;
+}
+button{
+  color: black;
+  cursor: pointer; 
+}
+
+@media (max-width: 500px) {
+  .Card{
+    width: 100%;
+  }
+  .ListItem{
+    width: 100%;
+    height: 100%;
+  }
+  .Card2{
+    width: 100%;
+  }
+  .Slider{
+    width: 100%;
+  }
+  .CardText{
+    width: 100%;
+  }
+  .Map{
+    width: 100%;
+    height: 100%;
+  }
+  .App {
+    padding-top: 10%;
+    font-size: 130%;
+  }
+}
