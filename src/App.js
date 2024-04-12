@@ -8,24 +8,6 @@ import Brand from './components/brand';
 import Contacts from './components/contacts';
 
 function App() {
-  const pages = [
-    {
-      value: 'Главная',
-      link: '/',
-    },
-    {
-      value: 'Производство',
-      link: '/production',
-    },
-    {
-      value: 'Наш бренд',
-      link: '/brend',
-    },
-    {
-      value: 'Контакты',
-      link: '/contacts',
-    },
-  ];
   return (
     <div className="App">
         <BrowserRouter>
