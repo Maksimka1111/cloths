@@ -12,6 +12,9 @@ import brandSl7 from './images/brandSl7.jpg'
 import brandSl8 from './images/brandSl8.jpg'
 import brandSl9 from './images/brandSl9.jpg'
 import brand12 from './images/brand12.jpg'
+import img4 from './images/img1.jpg'
+import img2 from './images/img2.jpg'
+import img3 from './images/img3.jpg'
 import { useLayoutEffect } from 'react';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
@@ -77,14 +80,28 @@ const Brand = () => {
             </div>
             <h2></h2>
             <div className={classes.Cards}>
-                <div className={classes.Card2}>
-                    <img src={brand2} alt="123" />
+                    <div className={classes.Slider}>
+                    <Slider {...settings}>
+                        <div>
+                            <img src={brand2} />
+                        </div>
+                        <div>
+                            <img src={img4}/>
+                        </div>
+                        <div>
+                            <img src={img2}/>
+                        </div>
+                        <div>
+                            <img src={img3}/>
+                        </div>
+                    </Slider>
                 </div>
                 <div className={classes.CardText}>
-                <strong> Свитшот женский </strong>
-                    <p>Оверсайз укороченный ,утепленный с начесом, специально созданный для девушек и женщин.
-                        Стильный рукав и удобные манжеты .Свитшот пошит из футера 3-х нитка начёс качество компакт пенье .Состав 70%хб.30%пэ.,
-                        Представлен в пяти цветах , 2-х размерах S-M (40-46).,L-XL(48-54).,
+                <strong>Модель: оверсайз, укороченный, утепленный.  </strong>
+                    <p>Представлен в 5 цветах (палитра не ограничена)
+                        Ткань: футер 3-х нитка начес качество компакт
+                        Состав: 70%хлопок 30%полиэстер
+                        Размер: S-M(40-46), L-XL (48-54)
                         </p>
                 </div>
             </div>
