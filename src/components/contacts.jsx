@@ -26,8 +26,8 @@ const Contacts = () => {
                     <h3>E-mail</h3>
                     <a href="mailto:13oe06@inbox.ru" target='blank'>13oe06@inbox.ru</a>
                     <h3>Производство</h3>
-                    <a href="tel:+79648303009">+7-964-830-30-09</a>
-                    <p><a href='https://wa.me/+79648303009' target='blank'>Написать в WhatsApp</a></p>
+                    <a href="tel:+79648303009">+7-903-058-80-88</a>
+                    <p><a href='https://wa.me/+79030588088' target='blank'>Написать в WhatsApp</a></p>
                     <h3>Cотрудничество </h3>
                     <a href="tel:+79202944449" target='black'>+7-920-294-44-49</a>
                     <p><a href='https://wa.me/+79202944449' target='blank'>Написать в WhatsApp</a></p>

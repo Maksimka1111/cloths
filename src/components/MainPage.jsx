@@ -13,11 +13,8 @@ const MainPage = () => {
             <div className = {classes.App}>
                 <h1>Пошив одежды оптом</h1>
                 <h3>Швейное производство полного цикла</h3>
-                <form action='https://wa.me/+79648303009' target="_blank">
+                <form action='https://wa.me/+79030588088' target="_blank">
                     <button>Написать в WhatsApp </button>
-                </form>
-                <form action='/contacts'>
-                    <button>Сделать заказ </button>
                 </form>
             </div>
             <h1>Швейное производство полного цикла</h1>
@@ -63,7 +60,7 @@ const MainPage = () => {
                     </ul>
                 </div>
                 <div className={classes.ListItem}>
-                <h2>Мы отшиваем детскую, женскую, мужскую одежду 1 и 2 слоя из трикотажа и текстиля</h2>
+                <h2>Мы отшиваем детскую, женскую, мужскую одежду 2 слоя из трикотажа и текстиля</h2>
                     <ul>
                          <li>Футболки, шорты, топы</li>
                          <li>Пижамы, халаты, одежда для дома и отдыха</li>

@@ -23,6 +23,20 @@
   display: inline;
   padding-right: 45px;
 }
+.headerContent2{
+  display: flex;
+  width: 100%;
+  flex-direction:row-reverse;
+  background-color: black;
+}
+.headerContent2 img{
+  width: 7%;
+  padding-right: 45px;
+}
+.headerContent2 li{
+  display: inline;
+  padding-right: 45px;
+}
 
 /* nav{
   height: 50px;
@@ -80,7 +94,15 @@
     flex-direction: column;
   }
   .headerContent2 li{
-    height: 80px;
+    margin-left: 25%;
+    display: block;
+    height: 60px;
+    width: 100vw;
+  }
+  .headerContent2 img{
+    width: 60%;
+    padding-left:53%;
+    padding-right: 0;
   }
   .burger{
     display: flex;
