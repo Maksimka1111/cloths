@@ -15,6 +15,7 @@ import brand12 from './images/brand12.jpg'
 import img4 from './images/img1.jpg'
 import img2 from './images/img2.jpg'
 import img3 from './images/img3.jpg'
+import img7 from './images/img7.jpg'
 import { useLayoutEffect } from 'react';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
@@ -134,13 +135,16 @@ const Brand = () => {
                         <div>
                             <img src={brandSl3}/>
                         </div>
+                        <div>
+                            <img src={img7}/>
+                        </div>
                     </Slider>
                 </div>
                 <div className={classes.CardText}>
                 <strong>Лонгслив женский. </strong>
                     <p>Представлен в 2-х размерах :         42-46(S-M).,48-52(L-XL).           
                         Состав : 95%хлопок .,5% лайкра .                              
-                        Лонгслив сшит швами наружу , что делает его стильным и неповторимым !
+                        Лонгслив сшит наружными швами , что делает его стильным и неповторимым !
                         </p>
                 </div>
             </div>
